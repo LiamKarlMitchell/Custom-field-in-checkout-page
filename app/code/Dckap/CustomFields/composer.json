@@ -1,0 +1,21 @@
+{
+    "name": "dckap/customfields",
+    "description": "Custom fields example",
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/module-checkout": "100.0.*"
+    },
+    "type": "magento2-module",
+    "version": "0.0.0",
+    "license": [
+        "Free"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dckap\\CustomFields\\": ""
+        }
+    }
+}
